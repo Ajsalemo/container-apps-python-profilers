@@ -47,5 +47,5 @@ def fib_html():
     fibonacci(20)
 
     profiler.stop()
-    p = profiler.output_html("profile.html")
+    p = profiler.output_html()
     return p
